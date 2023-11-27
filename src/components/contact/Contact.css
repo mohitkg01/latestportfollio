@@ -1,0 +1,40 @@
+.contact{
+    height: 20vh;
+   width: 100%;
+    background-color: rgb(31, 32, 32);
+    box-shadow: 2px 0 2px 2px rgb(31, 32, 32);
+   margin-top: -1rem;
+    
+}
+.contact>h1{
+  
+    font-size: 2rem;
+    color: white;
+    padding-left: 5rem;
+    padding-top: 10px;
+}
+.icon{
+    color: #00000032;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    transform: scale(2);
+    gap: 5rem;
+    
+}
+.icon:hover{
+    cursor: pointer;
+    color: crimson;
+}
+.icon>:nth-child(1){
+    color: white;
+}
+.icon>:nth-child(2){
+    color: white;
+}
+.gmail{
+    margin-bottom: 2rem;
+    color: white;
+    text-align: center;
+    margin-left: 36rem;
+}

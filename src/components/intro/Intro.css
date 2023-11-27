@@ -1,0 +1,132 @@
+.home{
+    
+    padding-top: 80px;
+      width: 100%;
+      z-index: 1;
+  }
+  .intro{
+      margin-top: 10rem;
+      display: flex;
+      height: 77vh;
+      margin-top: 10rem;
+      
+  }
+  .i-left{
+      flex: 1;
+      display: flex;
+      position: relative;
+      align-items: center;
+      flex-direction: column;
+      gap: 2rem;
+      
+      
+  }
+  .name{
+      display: flex;
+      flex-direction: column;
+  }
+  .name>:nth-child(1){
+      font-weight: bold;
+      font-size: 3rem;
+  }
+  .name>:nth-child(2){
+      font-weight: bold;
+      font-size: 3rem;
+      color: rgb(71, 67, 67);
+  }
+  .name>:nth-child(3){
+      font-weight: 100;
+      font-size: 14px;
+      margin-top: 10px;
+      opacity: .75;
+  }
+  .name>:nth-child(4){
+      width: 9rem;
+      height: 3rem;
+      margin-top: 2rem;
+      text-align: center;
+      border-radius: 34px;
+      border: none;
+      color: white;
+      font-size: 16px;
+      padding-top: 24px;
+      background-color: #646864d6;
+      box-shadow:0px 20px 24px 3px rgb(206 208 208 / 67%);
+  }
+  /* .icons{
+      margin-top: 3rem;
+      display: flex;
+      gap: 1rem;
+      
+  } */
+  
+  .i-right{
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+  }
+  .i-right>*{
+      position: absolute;
+      z-index: 1;
+     
+  }
+  .img{
+      transform: scale(.3);
+  }
+  .bottom{
+      flex: 1;
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: space-around;
+      background-color: #d5cdcd7d;
+      box-shadow: 0 5px 5px 5px rgba(176, 182, 182, 0.22);
+      padding: 8px;
+  }
+  .bottom>:nth-child(1){
+      width: 5rem;
+      height: 5rem;
+  }
+  .bottom>:nth-child(2){
+      width: 5rem;
+      height: 5rem;
+  }
+  .bottom>:nth-child(3){
+      width: 5rem;
+      height: 5rem;
+  }
+  .bottom>:nth-child(4){
+      width: 5rem;
+      height: 5rem;
+  }
+  .bottom>:nth-child(5){
+      width: 5rem;
+      height: 5rem;
+  }
+  .pdf{
+      position: fixed;
+      top: 15%;
+      right: 2%;
+      display: flex;
+      flex-direction: column;
+  }
+  .pdf>:nth-child(1){
+      font-size: 18px;
+      
+  }
+  .pdf>:nth-child(2){
+      color: black;
+   font-size: 2rem;
+   padding-left: 8px;
+  }
+  .down{
+    font-size: 2rem;
+    margin-top: 10rem;
+   
+  }
+  .down>:nth-child(1){
+    color: black;
+    margin-left: -11rem;
+  }
