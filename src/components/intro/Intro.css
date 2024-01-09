@@ -17,7 +17,7 @@
       position: relative;
       align-items: center;
       flex-direction: column;
-      gap: 2rem;
+      margin-left: 100px;
       
       
   }
@@ -35,10 +35,10 @@
       color: rgb(71, 67, 67);
   }
   .name>:nth-child(3){
-      font-weight: 100;
-      font-size: 14px;
-      margin-top: 10px;
-      opacity: .75;
+    font-weight: 100;
+    font-size: 18px;
+    margin-top: 10px;
+    opacity: 0.95;
   }
   .name>:nth-child(4){
       width: 9rem;

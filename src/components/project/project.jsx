@@ -35,7 +35,7 @@ The website features sorting and filtering functionalities, allowing users to re
           CryptoTrackr, the versatile cryptocurrency application, Provides real-time crypto info and stay updated on the latest news about cryptocurrencies.</span>
              <div className="code">
             <a href="https://github.com/mohitkg01/cryptotracker1" target="blank" >Code<AiOutlineGithub/></a>
-            <a href="https://cryptotracker1-s8kd-ri8y5df2a-mohitkg01.vercel.app/" target="blank">Live Demo <BsBoxArrowUpRight/></a>
+            <a href="https://cryptotracker1-six.vercel.app/" target="blank">Live Demo <BsBoxArrowUpRight/></a>
           </div>
         </div>
     </div>

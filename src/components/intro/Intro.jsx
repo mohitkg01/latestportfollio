@@ -7,7 +7,7 @@ import javascript from '../../assets/javascript.png'
 import sass from '../../assets/sass.png'
 import react from '../../assets/react.png'
 import {AiOutlineDownload} from 'react-icons/ai';
-import pdf from '../../assets/Resume_mohit.pdf';
+import pdf from '../../assets/resume.pdf';
 import { HashLink } from 'react-router-hash-link';
 import {BsArrowDownSquare} from 'react-icons/bs';
 
@@ -23,7 +23,9 @@ const Intro = () => {
             <div className="name">
                 <span>Hy! I Am</span>
                 <span>Mohit</span>
-                <span>Hello, I am Mohit Kumar Gond, an enthusiastic Front-end React Developer residing in the Uttar Pradesh, India.
+                <span>Hello, I am Mohit Kumar Gond, an enthusiastic Front-end React Developer  and DevOps  residing in the Uttar Pradesh, India.
+                  At present I am doing Devops Training from an Training Instiute till now I have learn basic Aws, Git ,Script language and going to learn more.
+                  
                 </span>
                 <span>Hire Me!</span>
             </div>
