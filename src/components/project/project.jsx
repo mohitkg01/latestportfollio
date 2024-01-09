@@ -1,10 +1,12 @@
 import React from 'react'
 import todo from '../../assets/todo.png';
 import shoes from '../../assets/shoesic.jpg';
-import weather from '../../assets/wheather.jpg'
+import weather from '../../assets/wheather.jpg';
+import crypto from '../../assets/crypto.jpg';
 import './project.css'
 import { AiOutlineGithub} from "react-icons/ai";
 import { BsBoxArrowUpRight } from "react-icons/bs";
+
 const project = () => {
   return (
   <div className="project" id='project'>
@@ -21,6 +23,19 @@ The website features sorting and filtering functionalities, allowing users to re
              <div className="code">
             <a href="https://github.com/mohitkg01/shoes" target="blank" >Code<AiOutlineGithub/></a>
             <a href="https://shoes-rose.vercel.app/home" target="blank">Live Demo <BsBoxArrowUpRight/></a>
+          </div>
+        </div>
+    </div>
+    <div className="projects">
+      <div className="project-info">
+       <img src={crypto} alt="" /> </div>
+        <div className="text">
+          <span>Crypto Tracker</span>
+          <span>
+          CryptoTrackr, the versatile cryptocurrency application, Provides real-time crypto info and stay updated on the latest news about cryptocurrencies.</span>
+             <div className="code">
+            <a href="https://github.com/mohitkg01/cryptotracker1" target="blank" >Code<AiOutlineGithub/></a>
+            <a href="https://cryptotracker1-s8kd-ri8y5df2a-mohitkg01.vercel.app/" target="blank">Live Demo <BsBoxArrowUpRight/></a>
           </div>
         </div>
     </div>

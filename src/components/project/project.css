@@ -43,6 +43,9 @@
     border-radius: 5%;
     margin: 0.6rem;
     transition: all 8s ease-in-out 0s;
+    /* &:hover{
+        all
+    } */
 }
 .text{
     font-size: 1rem;

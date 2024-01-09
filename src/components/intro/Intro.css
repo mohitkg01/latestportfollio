@@ -50,8 +50,22 @@
       color: white;
       font-size: 16px;
       padding-top: 24px;
-      background-color: #646864d6;
+      background-color: #6468648f;
       box-shadow:0px 20px 24px 3px rgb(206 208 208 / 67%);
+      animation: upDown 3s ease infinite;
+  }
+
+  @keyframes upDown {
+    0% {
+        transform: translateY(20%);
+    }
+    50% {
+        transform: translateY(-20%);
+    }
+    100% {
+        transform: translateY(20%);
+    }
+    
   }
   /* .icons{
       margin-top: 3rem;
