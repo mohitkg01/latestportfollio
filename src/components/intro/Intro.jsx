@@ -17,20 +17,20 @@ const Intro = () => {
     <div className="intro">
         <div className="pdf">
         <span>Resume</span>
-        <a  href = {pdf} target = "blank"><AiOutlineDownload/></a>
+        <a  href = {pdf} target = "blank" title='Download here'><AiOutlineDownload/></a>
         </div>
         <div className="i-left">
             <div className="name">
                 <span>Hy! I Am</span>
                 <span>Mohit</span>
                 <span>Hello, I am Mohit Kumar Gond, an enthusiastic Front-end React Developer  and DevOps  residing in the Uttar Pradesh, India.
-                  At present I am doing Devops Training from an Training Instiute till now I have learn basic Aws, Git ,Script language and going to learn more.
+                  At present I am undergoing Devops Training from an Training Instiute till now I have learn basic Aws, Git ,Script language ,Docker ,Ansible and going to learn more.
                   
                 </span>
                 <span>Hire Me!</span>
             </div>
             <div className="down">
-            <HashLink smooth to="#contact"><BsArrowDownSquare/></HashLink>
+            <HashLink smooth to="#contact" title='Scroll Down'><BsArrowDownSquare/></HashLink>
             </div>       
         </div>
         <div className="i-right">
