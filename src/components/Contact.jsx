@@ -1,6 +1,6 @@
 import React from 'react'
 import {BiLogoInstagramAlt,BiLogoGmail} from 'react-icons/bi'
-import './Contact.css';
+import '../Style/Contact.css';
 
 
 const Contact = () => {

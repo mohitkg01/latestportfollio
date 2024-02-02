@@ -1,0 +1,44 @@
+.main>h1{
+    text-align: center;
+}
+.abt{
+    display: flex;
+}
+.a-left{
+    justify-items: center;  
+    padding: 50px;
+}
+.a-left>img{
+    height: 200px;
+    width: 200px;
+}
+
+.a-right{
+    display: grid;
+    width: 50%;
+   
+}
+.a-right>span{
+    justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .a-left {
+        margin-left: 0;
+        transform: scale(0.8);
+    }
+
+    .a-left > img {
+        margin-top: 0;
+    }
+
+    .a-right {
+        margin-left: 0;
+        padding: 2rem;
+    }
+}

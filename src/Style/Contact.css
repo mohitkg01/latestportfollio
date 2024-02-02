@@ -38,3 +38,16 @@
     text-align: center;
     margin-left: 36rem;
 }
+
+@media screen and (max-width: 768px) {
+    .icon {
+        margin-top: 1rem;
+        margin-left: 5rem;
+        justify-content: space-around;
+        gap: 2rem;
+    }
+
+    .gmail {
+        margin-left: 0;
+    }
+}
