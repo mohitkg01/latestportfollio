@@ -134,4 +134,10 @@
  .intro{
   margin-bottom: 80px;
  }
+ .bottom{
+  margin-top: 80px;
+ }
+ .down{
+  margin-bottom: 10px;
+ }
 }
