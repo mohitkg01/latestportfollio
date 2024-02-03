@@ -19,7 +19,7 @@
 .title{
 margin-bottom: 80px;
 }
-.img_p>img{
+.img_p>a>img{
     height: 300px;
     width: 300px;
     border-radius: 5%;
@@ -45,7 +45,7 @@ margin-bottom: 80px;
         margin: 20px;
     }
 
-    .img_p > img {
+    .img_p >a> img {
         height: 200px;
         width: 200px;
     }

@@ -12,7 +12,7 @@ const projectlist = [
   {
     name:'Yoga app',
     github:'https://github.com/mohitkg01/yogaapp',
-    url:'https://vercel.com/mohitkg01/yogaapp',
+    url:'https://yogaapp-gilt.vercel.app/',
     img:yoga,
     text:"Our Yoga Booking App, crafted with the power of React, brings tranquility to your fingertips. Seamlessly book yoga classes, workshops, and sessions with an intuitive interface. Personalize your yoga journey, track attendance, and receive timely notifications. Whether you're a novice or seasoned yogi, explore diverse classes and connect with a like-minded community. Elevate your wellness experience with our React-based Yoga Booking App—where technology meets mindfulness for a harmonious practice."
     },
@@ -56,7 +56,7 @@ const project = () => {
       return (
         <div className="projects">
           <div className='img_p'>
-          <img src={list.img} alt="" />
+            <a href={list.url}><img src={list.img} alt="" /></a>
           </div>
           <div className='title'>
           <h1>
@@ -64,7 +64,7 @@ const project = () => {
           <div className="text">
           <p>{list.text}</p>
           <div className='icons'>
-          <a href={list.github} target='blank'>Code <AiFillGithub/></a>
+             <a href={list.github} target='blank'>Code <AiFillGithub/></a>
              <a href={list.url} target='blank'>Live <BsBoxArrowUpRight/></a>
           </div>
          </div>
