@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="n-right">
             <nav className="list">
                 <ul className='ul'>
-                <HashLink smooth to="#intro">Home</HashLink>
+                <HashLink smooth to="#intropage">Home</HashLink>
                 <HashLink smooth to="#about">About</HashLink>
                 <HashLink smooth to="#project">Project</HashLink>
                 <HashLink smooth to="#contact">Contact</HashLink>

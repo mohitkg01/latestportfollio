@@ -3,12 +3,19 @@ import todo from '../assets/todo.png';
 import shoes from '../assets/shoesic.jpg';
 import weather from '../assets/wheather.jpg';
 import crypto from '../assets/crypto.jpg';
+import yoga  from '../assets/yoga.jpg';
 import '../Style/project.css';
-import { AiFillGithub, AiOutlineGithub} from "react-icons/ai";
+import { AiFillGithub} from "react-icons/ai";
 import { BsBoxArrowUpRight } from "react-icons/bs";
-import { GenIcon } from 'react-icons/lib';
 
 const projectlist = [
+  {
+    name:'Yoga app',
+    github:'https://github.com/mohitkg01/yogaapp',
+    url:'https://vercel.com/mohitkg01/yogaapp',
+    img:yoga,
+    text:"Our Yoga Booking App, crafted with the power of React, brings tranquility to your fingertips. Seamlessly book yoga classes, workshops, and sessions with an intuitive interface. Personalize your yoga journey, track attendance, and receive timely notifications. Whether you're a novice or seasoned yogi, explore diverse classes and connect with a like-minded community. Elevate your wellness experience with our React-based Yoga Booking App—where technology meets mindfulness for a harmonious practice."
+    },
   {
     name: 'ShoesStore',
     github: 'https://github.com/mohitkg01/shoes',
@@ -22,43 +29,43 @@ const projectlist = [
     url: 'https://cryptotracker1-six.vercel.app/',
     img:crypto,
     text:" CryptoTrackr, the versatile cryptocurrency application, Provides real-time crypto info and stay updated on the latest news about cryptocurrencies."
-  }, {
+  },
+  {
+    name: 'To do list',
+    github: 'https://github.com/mohitkg01/proojectTodo',
+    url: 'https://prooject-todo.vercel.app/',
+    img:todo,
+    text:"A Todo List project is a practical and efficient way to organize tasks and manage daily activities. Users can easily add, edit, and delete tasks,filter ,drag and drop their task ensuring a dynamic and user-friendly experience."
+  },
+   {
     name: 'Weather',
     github: 'https://github.com/mohitkg01/Weather-Cast',
     url: 'https://wheather-status.netlify.app/',
     img:weather,
     text:"A weather status live UI page using React,Html,Css and JavaScript.Where we can retrieves real time Weather data by entering city name."
   },
-  {
-    name: 'ShoesStore',
-    github: 'https://github.com/mohitkg01/todo-list',
-    url: 'https://to-do-list545.netlify.app/',
-    img:todo,
-    text:"A Todo List project is a practical and efficient way to organize tasks and manage daily activities. Users can easily add, edit, and delete tasks, ensuring a dynamic and user-friendly experience."
-  }
+  
+  
 ];
 
 const project = () => {
   return (
   <div className="project" id='project'>
-
     <h1>My Projects</h1>
     { projectlist.map((list)=>{
       return (
         <div className="projects">
-          <div>
-          <div className='title'>
-            {list.name}</div>
           <div className='img_p'>
           <img src={list.img} alt="" />
-         </div>
           </div>
-          <div>
+          <div className='title'>
+          <h1>
+            {list.name}</h1>
           <div className="text">
           <p>{list.text}</p>
           <div className='icons'>
-            <a href={list.github} target='blank'><AiFillGithub/></a>
-            <a href={list.url} target='blank'><BsBoxArrowUpRight/></a>
+          <a href={list.github} target='blank'>Code <AiFillGithub/></a>
+             <a href={list.url} target='blank'>Live <BsBoxArrowUpRight/></a>
           </div>
          </div>
           </div>

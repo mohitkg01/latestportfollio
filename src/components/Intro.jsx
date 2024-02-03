@@ -35,9 +35,10 @@ const Intro = () => {
             <HashLink smooth to="#contact" title='Scroll Down'><BsArrowDownSquare/></HashLink>
             </div> 
             <div className="pdf">
-            <span>Resume</span>
             <a  href = {pdf} target = "blank" title='Download here'><AiOutlineDownload/></a>
+            <span>Resume</span>
             </div>
+           
              
       </div>
     <div className="bottom">

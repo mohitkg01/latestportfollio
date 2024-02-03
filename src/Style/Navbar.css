@@ -2,62 +2,58 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
-    background-color: whilte; 
-    /* position: fixed; */
+    background-color:#0d0c0c;
+    padding: 1rem;
+    color: #fff;
+    position: fixed;
     box-shadow: 0 5px 5px 5px rgba(221, 223, 223, 0.22);
+    width: 100%;
+    /* z-index: 100; */
 }
 
 .n-left {
-    /* display: flex; */
-    align-items: center;
-  }
-  
-  .n-name {
+    text-align: left;
+}
+
+.n-name {
     font-size: 1.5rem;
     font-weight: bold;
-  }
-  
-  /* .n-right {
+}
+
+.n-right {
+    text-align: right;
+}
+
+.list {
     display: flex;
-  }
-   */
-  .list {
-    margin: 0;
-    padding: 0;
+    justify-content: flex-end;
+}
+
+.ul {
     list-style-type: none;
-    display: flex;
-  }
-  
-  .ul {
-    display: flex;
-    gap: 20px;
-  }
-  
-  ul li {
-    padding: 10px;
-  }
-  
-  ul li a {
+    margin-right: 20px;
+    padding: 0;
+}
+
+.ul a {
     text-decoration: none;
-    color: white; 
+    color: #fff;
+    margin: 0 15px;
+    font-size: 1rem;
+}
+
+.ul a:hover {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 3px;
+}
+@media screen and (max-width: 768px) {
+  .wrapper {
+      display: flex;
+      align-items: flex-start;
+      /* position: fixed; */
   }
-  
-  ul li a:hover {
-    border-bottom: 2px solid white;
+
+  .list {
+      justify-content: center;
   }
-  .icons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .icons a {
-    margin: 10px;
-    text-decoration: none;
-    color: #333; /* Adjust icon color as needed */
-  }
-  
-  .icons a:hover {
-    color: #007bff; /* Adjust icon color on hover as needed */
-  }
+}
