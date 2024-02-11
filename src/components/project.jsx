@@ -39,8 +39,8 @@ const projectlist = [
   },
    {
     name: 'Weather',
-    github: 'https://github.com/mohitkg01/Weather-Cast',
-    url: 'https://wheather-status.netlify.app/',
+    github: 'https://github.com/mohitkg01/weatherapp',
+    url: 'https://weatherapp-sigma-one.vercel.app/',
     img:weather,
     text:"A weather status live UI page using React,Html,Css and JavaScript.Where we can retrieves real time Weather data by entering city name."
   },
