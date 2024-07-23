@@ -10,19 +10,19 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 
 const projectlist = [
   {
+    name: 'E commerce site',
+    github: 'https://github.com/mohitkg01/ecommercewebsite',
+    url: 'https://ecommercewebsite-alpha-rosy.vercel.app/',
+    img:shoes,
+    text:"A Store is an online platform that empowers users to explore a diverse range of features  that cater to their preferences and make seamless purchases.The website features sorting and filtering functionalities, allowing users to refine their search for product. Users have the convenience of adding desired items to both their wishlist for future consideration and their shopping cart for immediate purchase."
+  },
+  {
     name:'Yoga app',
     github:'https://github.com/mohitkg01/yogaapp',
     url:'https://yogaapp-gilt.vercel.app/',
     img:yoga,
     text:"Our Yoga Booking App, crafted with the power of React, brings tranquility to your fingertips. Seamlessly book yoga classes, workshops, and sessions with an intuitive interface. Personalize your yoga journey, track attendance, and receive timely notifications. Whether you're a novice or seasoned yogi, explore diverse classes and connect with a like-minded community. Elevate your wellness experience with our React-based Yoga Booking App—where technology meets mindfulness for a harmonious practice."
     },
-  {
-    name: 'ShoesStore',
-    github: 'https://github.com/mohitkg01/shoes',
-    url: 'https://shoes-rose.vercel.app/home',
-    img:shoes,
-    text:"A Shoes Store website is an online platform that empowers users to explore a diverse range of footwear options that cater to their preferences and make seamless purchases.The website features sorting and filtering functionalities, allowing users to refine their search for shoes based on style, size, and other criteria. Users have the convenience of adding desired items to both their wishlist for future consideration and their shopping cart for immediate purchase."
-  },
   {
     name: 'Crypto Tracker',
     github: 'https://github.com/mohitkg01/cryptotracker1',
